@@ -23,6 +23,9 @@ echo "--- Starting package installation ---"
 sudo apt-get update -y
 
 # Install desired packages
-sudo apt-get install -y tree jq
+sudo apt-get install -y tree jq btop top htop
+
+touch /var/custom-image
+echo "Custom UbuntuImage Script"
 
 echo "--- Package installation complete ---"

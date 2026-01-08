@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------------
 # MANDATORY SETTINGS
 # ------------------------------------------------------------------------------
-project_id = "my-google-project" # !!! REPLACE THIS VALUE !!!
+project_id = "kenthua-alto-dev" # !!! REPLACE THIS VALUE !!!
 source_image = "projects/ubuntu-os-gke-cloud/global/images/ubuntu-gke-2404-1-33-amd64-v20250812" # !!! REPLACE THIS VALUE !!! Please only change the image name, but keep the "projects/ubuntu-os-gke-cloud/global/images/" part.
 
 # --- Image Settings ---
