@@ -57,6 +57,7 @@ source "googlecompute" "gke_ubuntu" {
   omit_external_ip = true
   network         = "default"
   ssh_timeout     = "15m"
+  use_os_login    = false
   metadata = {
     "enable-oslogin" = "FALSE"
   }
